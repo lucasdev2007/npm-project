@@ -1,12 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Mi Primer Proyecto NPM</title>
-  <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
-</head>
-<body>
-  <h1 class="header">Click to change background-color!</h1>
-  <script type="text/javascript" src="js/index.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <title>Mi Primer Proyecto NPM</title>
+    <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="UTF-8">
+  </head>
+  <body>
+    <script>
+
+    var nombre = "lucas",
+        edad = "10";
+    
+    for( i=1; i <= 10; i = i+1 ){
+      document.write(i + "<br>");
+    }
+
+    var dias=["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"];
+
+    // var i = 0;
+
+    // var numerodias = dias.length -1;
+
+    // while(i <= numerodias ){
+      // document.write( dias[i] + "<br>" )
+    // }
+
+    if (nombre=="Lucas" || nombre=="lucas"){
+      document.write("Hola Lucas");
+    } else if (edad=="10"){
+      document.write("Hola, tienes 10 años");
+    } else {
+      document.write("Hola");
+    }
+
+    </script>
+    <h1 class="header"></h1>
+    <script type="text/javascript" src="js/index.js"></script>
+    <div>
+      <h1>Portfolio de Lucas</h1>
+      <img src="img/gatito.jpg"  alt="gatito" width="259" height="194" title="gatito"/>
+      <img src="img/gatito 2.jpg" alt="gatito 2" width="259"/>
+    </div>
+    <hr/>
+      <div id="header">
+        <ul class="nav">
+          <li><a href="">Abel</a></li>
+          <li><a href="">Lucas</a>
+            <ul>
+              <li><a href="">Submenu</a></li>
+              <li><a href="">Submenu</a></li>
+              <li><a href="">Submenu</a></li>
+              <li><a href="">Valeri</a>
+                <ul>
+                  <li><a href="">Submenu</a></li>
+                  <li><a href="">Submenu</a></li>
+                  <li><a href="">Submenu</a></li>
+                  <li><a href="">Submenu</a></li>
+                </ul>
+              </li>
+            </ul>                  
+          </li>
+          <li><a href="">Marta</a>
+            <ul>
+              <li><a href="">Submenu</a></li>
+              <li><a href="">Submenu</a></li>
+              <li><a href="">Submenu</a></li>
+              <li><a href="">Submenu</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <form>
+        <label for="buscador">escriba</label>
+        <input type="text" placeholder="hola" maxlength="10" name="lucas" id="buscador">
+        <input type="password">
+        <input type="checkbox">Lucas
+        <input type="checkbox">Abel
+        <input type="radio">Lucas
+        <input type="radio">Abel
+        <input type="submit" value="boton">
+        <select>
+          <option>Lucas</option>
+          <option>Abel</option>
+          <option>Valeri</option>
+          <option>Marta</option>
+        </select>
+        <input type="color">
+        <input type="range">             
+      </form>
+      <ol>
+        <li>item</li>
+        <li>item 2</li>  
+        <li>item 3</li>
+        <li>item 4</li>
+        <li>item 5</li>
+        <li>item 6</li>
+      </ol>
+      <table>
+        <tr>
+          <td>elemento</td>
+          <td>elemento 2</td>
+          <td>elemento 3</td>
+        </tr>
+        <tr>
+          <td>elemento 4</td>
+          <td>elemento 5</td>
+          <td>elemento 6</td>
+        </tr>
+        <tr>
+          <td>elemento 7</td>
+          <td>elemento 8</td>
+          <td>elemento 9</td>
+        </tr>
+      </table>
+  </body>
 </html>

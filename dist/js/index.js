@@ -8,4 +8,4 @@ var Person = function Person(name) {
 };
 
 var David = new Person('David');
-console.log(David.channel('Aprendiendo Frontend'));
+// console.log(David.channel('Aprendiendo Frontend'));

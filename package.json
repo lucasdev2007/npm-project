@@ -17,12 +17,9 @@
     "lint:js": "eslint src/js/**/*.js",
     "lint": "npm run lint:sass && npm run lint:js",
     "test": "mocha --compilers js:babel-register",
-    "test:watch": "mocha --compilers js:babel-register --watch"
+    "test:watch": "mocha --compilers js:babel-register --watch",
+    "validate": "npm ls"
   },
-  "pre-commit": [
-    "lint",
-    "test"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/davecarter/npm-project.git"
